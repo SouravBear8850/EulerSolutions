@@ -8,7 +8,7 @@ public class q6 {
         sqsum=sqsum+i*i;
       }
 
-  } diffsum=(sum*sum)-sqsum;
+  diffsum=(sum*sum)-sqsum;
   System.out.println("difference of sum="+diffsum);
-
+  }
 }
