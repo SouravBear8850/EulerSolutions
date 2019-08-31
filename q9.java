@@ -5,7 +5,7 @@ public class q9 {
     int s=1000;
     for(a=1;a<s/3;a++)
     {
-      for(b=a;b<s/2;b++)
+      for(b=a;b<s/2;b++)//a<b<c,s=a+b+c
       {
         c=s-a-b;
         if(c*c==a*a+b*b){
