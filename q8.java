@@ -7,7 +7,7 @@ public class q8 {
     {prod=1;
        for(int j=i;j<=i+12;j++)
        {
-          prod =prod*((int)(num.charAt(j))-(int)'0');
+          prod =prod*((int)(num.charAt(j)-(int)'0');
            
        }
        if(maxprod<prod)
