@@ -10,7 +10,7 @@ public class q9 {
         c=s-a-b;
         if(c*c==a*a+b*b){
         
-        System.out.println("phythagorean triplets are="+a+','+b+','+c',');
+        System.out.println("phythagorean triplets product are="+(a*b*c));
         break;}
       }
     }
