@@ -9,8 +9,9 @@ public static void main(String[] args){
 		}System.out.println(sum);
 	
 }
-	static int prime(int n)
-	{
+public static int prime(int n)
+	
+{
 		int f=1;
 		if(n%2==0)
 			return 0;
