@@ -22,14 +22,14 @@ public class q7
   }
   public static void main(String[] args)
   {
-    int counter=0;
-    int x=2;
+    int counter=1;
+    int x=3;
     while(counter < 10001)
     {
       if(isPrime(x)){
         counter++;
-      } x++;
+      } x=x+2;
     }
-    System.out.println(x-1);
+    System.out.println(x-2);
   }
 }
